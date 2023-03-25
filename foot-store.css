@@ -87,7 +87,7 @@ padding: 0 12px;
     margin: auto;
 }
 .texual p{
-    margin: 17px 0;
+    margin: 14px 0;
 }
 
 .texual span{
@@ -317,5 +317,15 @@ list-style-type: none;
         flex-wrap: wrap;
        height: auto;
       
+    }
+
+}
+@media(max-width:630px){
+    .logo-img img{
+        width: 200px;
+        height: 200px;
+    }
+    .texual{
+        margin-top: 4rem;
     }
 }
